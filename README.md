@@ -51,9 +51,7 @@ The private `.pem` key was downloaded and stored locally.
 
 ### 3. Configured the Security Group
 
-Configured the EC2 security group to allow SSH traffic through TCP port 22.
-
-SSH access was limited according to the requirements of the lab.
+Configured a security group to allow SSH traffic on TCP port 22 from my IP address only, reducing unnecessary public exposure. 
 
 ### 4. Secured the Private Key
 
