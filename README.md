@@ -191,31 +191,19 @@ The following entries were added to `.gitignore`:
 
 Shows the EC2 instance successfully launched and in the **Running** state.
 
-Suggested filename:
-
-```text
-01-ec2-instance-running.png
-```
+![EC2 Instance Running](screenshots/01-ec2-instance-running.png)
 
 ### Screenshot 2 — Security Group SSH Configuration
 
 Shows the EC2 security group inbound rule allowing SSH communication over TCP port 22.
 
-Suggested filename:
-
-```text
-02-security-group-ssh.png
-```
+![Security Group SSH](screenshots/02-security-group-ssh.png)
 
 ### Screenshot 3 — Successful SSH Connection
 
 Shows the successful SSH connection from macOS Terminal to the Amazon Linux 2023 EC2 instance.
 
-Suggested filename:
-
-```text
-03-successful-ssh-login.png
-```
+![Successful SSH Login](screenshots/03-successful-ssh-login.png)
 
 ### Screenshot 4 — Linux System Information
 
@@ -228,21 +216,13 @@ cat /etc/os-release
 
 This confirms the active user and Amazon Linux 2023 operating system.
 
-Suggested filename:
-
-```text
-04-linux-system-info.png
-```
+![Linux System Information](screenshots/04-linux-system-info.png)
 
 ### Screenshot 5 — Linux File Management
 
 Shows the creation and navigation of the `cloud-project` directory and files within it.
 
-Suggested filename:
-
-```text
-05-linux-file-management.png
-```
+![Linux File Management](screenshots/05-linux-file-management.png)
 
 ### Screenshot 6 — Text File Creation
 
@@ -258,11 +238,7 @@ using:
 echo "AWS EC2 Linux SSH Project" > project.txt
 cat project.txt
 ```
-
-Suggested filename:
-
-```text
-06-linux-text-file.png
+![Linux Text File Creation](screenshots/06-linux-text-file.png)
 ```
 
 ## Repository Structure
