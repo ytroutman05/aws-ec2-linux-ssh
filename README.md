@@ -191,19 +191,19 @@ The following entries were added to `.gitignore`:
 
 Shows the EC2 instance successfully launched and in the **Running** state.
 
-![EC2 Instance Running](screenshots/01-ec2-instance-running.png)
+![EC2 Instance Running](screenshots/01-ec2-instance-running.jpeg)
 
 ### Screenshot 2 — Security Group SSH Configuration
 
 Shows the EC2 security group inbound rule allowing SSH communication over TCP port 22.
 
-![Security Group SSH](screenshots/02-security-group-ssh.png)
+![Security Group SSH](screenshots/02-security-group-ssh.jpeg)
 
 ### Screenshot 3 — Successful SSH Connection
 
 Shows the successful SSH connection from macOS Terminal to the Amazon Linux 2023 EC2 instance.
 
-![Successful SSH Login](screenshots/03-successful-ssh-login.png)
+![Successful SSH Login](screenshots/03-successful-ssh-login.jpg)
 
 ### Screenshot 4 — Linux System Information
 
@@ -216,13 +216,13 @@ cat /etc/os-release
 
 This confirms the active user and Amazon Linux 2023 operating system.
 
-![Linux System Information](screenshots/04-linux-system-info.png)
+![Linux System Information](screenshots/04-linux-system-info.jpeg)
 
 ### Screenshot 5 — Linux File Management
 
 Shows the creation and navigation of the `cloud-project` directory and files within it.
 
-![Linux File Management](screenshots/05-linux-file-management.png)
+![Linux File Management](screenshots/05-linux-file-management.jpeg)
 
 ### Screenshot 6 — Text File Creation
 
@@ -238,7 +238,7 @@ using:
 echo "AWS EC2 Linux SSH Project" > project.txt
 cat project.txt
 ```
-![Linux Text File Creation](screenshots/06-linux-text-file.png)
+![Linux Text File Creation](screenshots/06-linux-text-file.jpg)
 ```
 
 ## Repository Structure
@@ -250,12 +250,12 @@ aws-ec2-linux-ssh/
 ├── .gitignore
 │
 └── screenshots/
-    ├── 01-ec2-instance-running.png
-    ├── 02-security-group-ssh.png
-    ├── 03-successful-ssh-login.png
-    ├── 04-linux-system-info.png
-    ├── 05-linux-file-management.png
-    └── 06-linux-text-file.png
+    ├── 01-ec2-instance-running.jpeg
+    ├── 02-security-group-ssh.jpeg
+    ├── 03-successful-ssh-login.jpg
+    ├── 04-linux-system-info.jpeg
+    ├── 05-linux-file-management.jpeg
+    └── 06-linux-text-file.jpg
 ```
 
 ## Skills Demonstrated
